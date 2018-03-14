@@ -1,5 +1,5 @@
 %define install_dir /usr/apache/
-%define kafka_dir kafka_2.10-0.10.1.2-SNAPSHOT
+%define kafka_dir kafka_2.11-1.0.1
 %define _topdir /data/RPM/kafka/rpmbuild
 
 Name:           kafka
