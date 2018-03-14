@@ -1,4 +1,5 @@
 %define install_dir /usr/apache/
+%define kafka_version 1.0.1
 %define kafka_dir kafka_2.11-1.0.1
 %define _topdir /data/RPM/kafka/rpmbuild
 
@@ -9,8 +10,8 @@ Summary:        Apache Kafka is a framework to enable, monitor and manage compre
 
 Group:          Application/dp
 License:        Apache
-URL:            http://ranger.apache.org
-Source0:        kafka_2.10-0.10.1.2-SNAPSHOT.tgz
+URL:            http://kafka.apache.org
+Source0:        kafka_2.11-%{kafka_version}.tgz
 
 BuildRoot:      %{_topdir}/BUILDROOT
 #BuildRequires: maven
